@@ -10,3 +10,7 @@ A small full-stack task management project for learning modern software developm
 - Docker
 - Redis
 - RabbitMQ
+
+## Architecture
+
+The project will use a layered architecture.
