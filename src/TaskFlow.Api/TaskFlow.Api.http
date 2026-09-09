@@ -1,0 +1,13 @@
+@TaskFlow.Api_HostAddress = http://localhost:5053
+
+POST http://localhost:5053/api/tasks
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Learn PostgreSQL",
+  "isCompleted": false
+}
+
+###
+GET http://localhost:5053/api/tasks
